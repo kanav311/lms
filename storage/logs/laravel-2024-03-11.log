@@ -1,0 +1,9 @@
+[2024-03-11 09:42:08] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at C:\\Users\\krish\\Videos\\base_file_aiipl\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\krish\\Videos\\base_file_aiipl\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace()
+#1 C:\\Users\\krish\\Videos\\base_file_aiipl\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find()
+#2 C:\\Users\\krish\\Videos\\base_file_aiipl\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#3 C:\\Users\\krish\\Videos\\base_file_aiipl\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#4 C:\\Users\\krish\\Videos\\base_file_aiipl\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
